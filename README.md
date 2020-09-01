@@ -10,7 +10,7 @@ This is a demo application for: How to use cookies in an Express NodeJS applicat
 - **`httponly`**
 
   > When this attribute is set, client-side scripts are not allowed to access the cookie. Now, the question that arises is, 'Why do I need to safeguard my cookies from client-side scripts?'
-  > <br><br> > _The short answer_: **XSS** > <br> > _The long answer_: Cross Site Scripting attacks can be used to steal cookies with the help of client-side scripts.
+  > <br><br> _The short answer_: **XSS** <br> _The long answer_: Cross Site Scripting attacks can be used to steal cookies with the help of client-side scripts.
   > <br><br>
   > Restricting access to cookies by client-side scripts does not completely mitigate the risk of stealing cookies via XSS. However, it does raise the bar considerably and ensures that the most common XSS attack is mitigated, though not completely.
 
@@ -66,6 +66,10 @@ npm start
 ## Author
 
 - [**Truly Mittal**](https://trulymittal.com)
+
+## References
+
+- [**Cookies & their importance (by Balaji)**](https://www.paladion.net/blogs/cookie-attributes-and-their-importance)
 
 ## Contribute
 
