@@ -15,7 +15,7 @@ app.get('/set-cookie', (req, res) => {
     // expires: new Date('26 July 2021'),
     // httpOnly: true,
     // secure: true,
-    domain: 'example.com',
+    // domain: 'example.com',
   })
   // res.cookie('fizz', 'buzz')
   res.send('Cookies are set')
